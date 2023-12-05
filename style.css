@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(189, 185, 185);
+}
+
+#gamecontainer{
+    text-align: center;
+    align-items: center;
+}
+
+#gameboard{
+    border: 3px solid;
+}
+#scoretext{
+    font-family: "consolas", monospace;
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 400px;
+    height: max-content;
+    text-align: center;
+    margin-left: 270px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 2px solid;
+}
+#resetbtn, #startbtn, #pausebtn{
+    font-family: "Parmanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: dodgerblue;
+}
